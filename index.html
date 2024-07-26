@@ -49,6 +49,7 @@
 
 	<!-- CDN emailjs -->
 	<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -908,9 +909,9 @@
 							</div>
 							<div class="col-md-7 col-md-push-1">
 								<div class="row">
-									<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box"
+									<div class="col-md-10 col-md-offset-1 col-md-pull-1 "
 										data-animate-effect="fadeInRight">
-										<form id="contact-form">
+										<form id="contact-form" class="group-form">
 											<div class="form-group">
 												<input type="text" id="name" name="name" class="form-control"
 													placeholder="Name" required>
@@ -991,8 +992,11 @@
 	<!-- Handle email send -->
 	<script src="./js/handle_email_send.js"></script>
 
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-
+	<script type="text/javascript">
+		emailjs.init('Y97n60iQtoJL5MCrc')
+	</script>
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
 
