@@ -1126,6 +1126,21 @@ body.offcanvas .colorlib-nav-toggle {
   background: #4054b2;
 }
 
+.progress-bar.color-3d-design:after {
+  background: #CC6E0B;
+}
+
+.progress-bar.color-laravel:after {
+  background: #EA2211;
+}
+
+.progress-bar.color-php:after {
+  background: #4F5C93;
+}
+.progress-bar.color-wordpress:after {
+  background: #3098CB;
+}
+
 .progress-bar.color-6 span {
   color: #4054b2;
 }
